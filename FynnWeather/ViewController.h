@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FYHomeView.h"
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) FYHomeView *homeView;
 
 @end
 

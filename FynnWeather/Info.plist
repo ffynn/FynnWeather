@@ -3,7 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
+	<string>zh_CN</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>获取当前地理位置</string>
+	<key>NSLocationUsageDescription</key>
+	<string>获取当前地理位置</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>获取当前地理位置</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

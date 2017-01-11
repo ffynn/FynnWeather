@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FYWeatherViewController.h"
 
 @interface ViewController ()
 
@@ -14,16 +15,23 @@
 
 @implementation ViewController
 
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self.view addSubview:self.homeView];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - init
+- (FYHomeView *)homeView {
+    if (!_homeView) {
+        _homeView = [[FYHomeView alloc] initWithFrame:self.view.frame];
+        _homeView.homeVC = self;
+    }
+    return _homeView;
 }
-
 
 @end
