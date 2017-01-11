@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D88438D01E25F89600CDEEEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D88438CF1E25F89600CDEEEF /* main.m */; };
+		D88438D31E25F89600CDEEEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D88438D21E25F89600CDEEEF /* AppDelegate.m */; };
+		D88438D61E25F89600CDEEEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88438D51E25F89600CDEEEF /* ViewController.m */; };
+		D88438D91E25F89600CDEEEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88438D71E25F89600CDEEEF /* Main.storyboard */; };
+		D88438DB1E25F89600CDEEEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88438DA1E25F89600CDEEEF /* Assets.xcassets */; };
+		D88438DE1E25F89600CDEEEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88438DC1E25F89600CDEEEF /* LaunchScreen.storyboard */; };
+		D88438E91E25F89600CDEEEF /* FynnWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D88438E81E25F89600CDEEEF /* FynnWeatherTests.m */; };
+		D88438F41E25F89600CDEEEF /* FynnWeatherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D88438F31E25F89600CDEEEF /* FynnWeatherUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D88438E51E25F89600CDEEEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D88438C31E25F89600CDEEEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D88438CA1E25F89600CDEEEF;
+			remoteInfo = FynnWeather;
+		};
+		D88438F01E25F89600CDEEEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D88438C31E25F89600CDEEEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D88438CA1E25F89600CDEEEF;
+			remoteInfo = FynnWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D88438CB1E25F89600CDEEEF /* FynnWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FynnWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88438CF1E25F89600CDEEEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D88438D11E25F89600CDEEEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D88438D21E25F89600CDEEEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D88438D41E25F89600CDEEEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D88438D51E25F89600CDEEEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D88438D81E25F89600CDEEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D88438DA1E25F89600CDEEEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D88438DD1E25F89600CDEEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D88438DF1E25F89600CDEEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88438E41E25F89600CDEEEF /* FynnWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FynnWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88438E81E25F89600CDEEEF /* FynnWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FynnWeatherTests.m; sourceTree = "<group>"; };
+		D88438EA1E25F89600CDEEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88438EF1E25F89600CDEEEF /* FynnWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FynnWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88438F31E25F89600CDEEEF /* FynnWeatherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FynnWeatherUITests.m; sourceTree = "<group>"; };
+		D88438F51E25F89600CDEEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D88438C81E25F89600CDEEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88438E11E25F89600CDEEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88438EC1E25F89600CDEEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D88438C21E25F89600CDEEEF = {
+			isa = PBXGroup;
+			children = (
+				D88438CD1E25F89600CDEEEF /* FynnWeather */,
+				D88438E71E25F89600CDEEEF /* FynnWeatherTests */,
+				D88438F21E25F89600CDEEEF /* FynnWeatherUITests */,
+				D88438CC1E25F89600CDEEEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D88438CC1E25F89600CDEEEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D88438CB1E25F89600CDEEEF /* FynnWeather.app */,
+				D88438E41E25F89600CDEEEF /* FynnWeatherTests.xctest */,
+				D88438EF1E25F89600CDEEEF /* FynnWeatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D88438CD1E25F89600CDEEEF /* FynnWeather */ = {
+			isa = PBXGroup;
+			children = (
+				D88438D11E25F89600CDEEEF /* AppDelegate.h */,
+				D88438D21E25F89600CDEEEF /* AppDelegate.m */,
+				D88438D41E25F89600CDEEEF /* ViewController.h */,
+				D88438D51E25F89600CDEEEF /* ViewController.m */,
+				D88438D71E25F89600CDEEEF /* Main.storyboard */,
+				D88438DA1E25F89600CDEEEF /* Assets.xcassets */,
+				D88438DC1E25F89600CDEEEF /* LaunchScreen.storyboard */,
+				D88438DF1E25F89600CDEEEF /* Info.plist */,
+				D88438CE1E25F89600CDEEEF /* Supporting Files */,
+			);
+			path = FynnWeather;
+			sourceTree = "<group>";
+		};
+		D88438CE1E25F89600CDEEEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D88438CF1E25F89600CDEEEF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D88438E71E25F89600CDEEEF /* FynnWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				D88438E81E25F89600CDEEEF /* FynnWeatherTests.m */,
+				D88438EA1E25F89600CDEEEF /* Info.plist */,
+			);
+			path = FynnWeatherTests;
+			sourceTree = "<group>";
+		};
+		D88438F21E25F89600CDEEEF /* FynnWeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D88438F31E25F89600CDEEEF /* FynnWeatherUITests.m */,
+				D88438F51E25F89600CDEEEF /* Info.plist */,
+			);
+			path = FynnWeatherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D88438CA1E25F89600CDEEEF /* FynnWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88438F81E25F89600CDEEEF /* Build configuration list for PBXNativeTarget "FynnWeather" */;
+			buildPhases = (
+				D88438C71E25F89600CDEEEF /* Sources */,
+				D88438C81E25F89600CDEEEF /* Frameworks */,
+				D88438C91E25F89600CDEEEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FynnWeather;
+			productName = FynnWeather;
+			productReference = D88438CB1E25F89600CDEEEF /* FynnWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D88438E31E25F89600CDEEEF /* FynnWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88438FB1E25F89600CDEEEF /* Build configuration list for PBXNativeTarget "FynnWeatherTests" */;
+			buildPhases = (
+				D88438E01E25F89600CDEEEF /* Sources */,
+				D88438E11E25F89600CDEEEF /* Frameworks */,
+				D88438E21E25F89600CDEEEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D88438E61E25F89600CDEEEF /* PBXTargetDependency */,
+			);
+			name = FynnWeatherTests;
+			productName = FynnWeatherTests;
+			productReference = D88438E41E25F89600CDEEEF /* FynnWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D88438EE1E25F89600CDEEEF /* FynnWeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88438FE1E25F89600CDEEEF /* Build configuration list for PBXNativeTarget "FynnWeatherUITests" */;
+			buildPhases = (
+				D88438EB1E25F89600CDEEEF /* Sources */,
+				D88438EC1E25F89600CDEEEF /* Frameworks */,
+				D88438ED1E25F89600CDEEEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D88438F11E25F89600CDEEEF /* PBXTargetDependency */,
+			);
+			name = FynnWeatherUITests;
+			productName = FynnWeatherUITests;
+			productReference = D88438EF1E25F89600CDEEEF /* FynnWeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D88438C31E25F89600CDEEEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Fynn;
+				TargetAttributes = {
+					D88438CA1E25F89600CDEEEF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XJ5P4B7MAV;
+						ProvisioningStyle = Automatic;
+					};
+					D88438E31E25F89600CDEEEF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XJ5P4B7MAV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D88438CA1E25F89600CDEEEF;
+					};
+					D88438EE1E25F89600CDEEEF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XJ5P4B7MAV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D88438CA1E25F89600CDEEEF;
+					};
+				};
+			};
+			buildConfigurationList = D88438C61E25F89600CDEEEF /* Build configuration list for PBXProject "FynnWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D88438C21E25F89600CDEEEF;
+			productRefGroup = D88438CC1E25F89600CDEEEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D88438CA1E25F89600CDEEEF /* FynnWeather */,
+				D88438E31E25F89600CDEEEF /* FynnWeatherTests */,
+				D88438EE1E25F89600CDEEEF /* FynnWeatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D88438C91E25F89600CDEEEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88438DE1E25F89600CDEEEF /* LaunchScreen.storyboard in Resources */,
+				D88438DB1E25F89600CDEEEF /* Assets.xcassets in Resources */,
+				D88438D91E25F89600CDEEEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88438E21E25F89600CDEEEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88438ED1E25F89600CDEEEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D88438C71E25F89600CDEEEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88438D61E25F89600CDEEEF /* ViewController.m in Sources */,
+				D88438D31E25F89600CDEEEF /* AppDelegate.m in Sources */,
+				D88438D01E25F89600CDEEEF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88438E01E25F89600CDEEEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88438E91E25F89600CDEEEF /* FynnWeatherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88438EB1E25F89600CDEEEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88438F41E25F89600CDEEEF /* FynnWeatherUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D88438E61E25F89600CDEEEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D88438CA1E25F89600CDEEEF /* FynnWeather */;
+			targetProxy = D88438E51E25F89600CDEEEF /* PBXContainerItemProxy */;
+		};
+		D88438F11E25F89600CDEEEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D88438CA1E25F89600CDEEEF /* FynnWeather */;
+			targetProxy = D88438F01E25F89600CDEEEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D88438D71E25F89600CDEEEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D88438D81E25F89600CDEEEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D88438DC1E25F89600CDEEEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D88438DD1E25F89600CDEEEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D88438F61E25F89600CDEEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D88438F71E25F89600CDEEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D88438F91E25F89600CDEEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XJ5P4B7MAV;
+				INFOPLIST_FILE = FynnWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fynn.FynnWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D88438FA1E25F89600CDEEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XJ5P4B7MAV;
+				INFOPLIST_FILE = FynnWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fynn.FynnWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D88438FC1E25F89600CDEEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XJ5P4B7MAV;
+				INFOPLIST_FILE = FynnWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fynn.FynnWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FynnWeather.app/FynnWeather";
+			};
+			name = Debug;
+		};
+		D88438FD1E25F89600CDEEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XJ5P4B7MAV;
+				INFOPLIST_FILE = FynnWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fynn.FynnWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FynnWeather.app/FynnWeather";
+			};
+			name = Release;
+		};
+		D88438FF1E25F89600CDEEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = XJ5P4B7MAV;
+				INFOPLIST_FILE = FynnWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fynn.FynnWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FynnWeather;
+			};
+			name = Debug;
+		};
+		D88439001E25F89600CDEEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = XJ5P4B7MAV;
+				INFOPLIST_FILE = FynnWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fynn.FynnWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FynnWeather;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D88438C61E25F89600CDEEEF /* Build configuration list for PBXProject "FynnWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88438F61E25F89600CDEEEF /* Debug */,
+				D88438F71E25F89600CDEEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88438F81E25F89600CDEEEF /* Build configuration list for PBXNativeTarget "FynnWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88438F91E25F89600CDEEEF /* Debug */,
+				D88438FA1E25F89600CDEEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D88438FB1E25F89600CDEEEF /* Build configuration list for PBXNativeTarget "FynnWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88438FC1E25F89600CDEEEF /* Debug */,
+				D88438FD1E25F89600CDEEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D88438FE1E25F89600CDEEEF /* Build configuration list for PBXNativeTarget "FynnWeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88438FF1E25F89600CDEEEF /* Debug */,
+				D88439001E25F89600CDEEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D88438C31E25F89600CDEEEF /* Project object */;
+}
