@@ -291,10 +291,10 @@ static NSInteger const indexLableTag = 100;
     WeatherDailyForecast *dailyForecast = model.dailyForecast[0];
     NSString *pm25 = [NSString stringWithFormat:@"PM2.5：%@", model.aqi.city.pm25];
     NSString *pm10 = [NSString stringWithFormat:@"PM10：%@", model.aqi.city.pm10];
-    NSString *quality = [NSString stringWithFormat:@"空气质量：%@", model.aqi.city.qlty];
+    NSString *quality = [NSString stringWithFormat:@"空气：%@", model.aqi.city.qlty];
     NSString *wind = [NSString stringWithFormat:@"%@：%@",dailyForecast.wind.dir, dailyForecast.wind.sc];
     //  无持续风向
-    if ([dailyForecast.wind.deg integerValue] == 340) {
+    if ([dailyForecast.wind.dir containsString:@"无持续"]) {
         wind = [NSString stringWithFormat:@"%@",dailyForecast.wind.dir];
     }
     NSString *humidity = [NSString stringWithFormat:@"湿度：%@", dailyForecast.hum];
