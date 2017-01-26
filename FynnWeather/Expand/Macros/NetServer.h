@@ -13,8 +13,8 @@
  京东万象API
  */
 #define JD_APIKEY       @"b5305b7f951ede899d83b81d10ebd48b"
-#define JD_API_URL      @"https://way.jd.com/"
-#define WEATHER_API     @"he/freeweather"
+#define JD_API_URL      @"https://way.jd.com"
+#define WEATHER_API     @"/he/freeweather"
 
 /**
  天气说明

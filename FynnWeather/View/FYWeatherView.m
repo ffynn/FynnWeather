@@ -289,9 +289,9 @@ static NSInteger const indexLableTag = 100;
 
 - (void)fy_setIndexData:(WeatherHeWeather5 *)model {
     WeatherDailyForecast *dailyForecast = model.dailyForecast[0];
-    NSString *pm25 = [NSString stringWithFormat:@"PM2.5：%@", model.aqi.city.pm25];
-    NSString *pm10 = [NSString stringWithFormat:@"PM10：%@", model.aqi.city.pm10];
-    NSString *quality = [NSString stringWithFormat:@"空气：%@", model.aqi.city.qlty];
+    NSString *pm25 = [NSString stringWithFormat:@"PM2.5：%@", [self fy_getDataStr:model.aqi.city.pm25]];
+    NSString *pm10 = [NSString stringWithFormat:@"PM10：%@", [self fy_getDataStr:model.aqi.city.pm10]];
+    NSString *quality = [NSString stringWithFormat:@"空气：%@", [self fy_getDataStr:model.aqi.city.qlty]];
     NSString *wind = [NSString stringWithFormat:@"%@：%@",dailyForecast.wind.dir, dailyForecast.wind.sc];
     //  无持续风向
     if ([dailyForecast.wind.dir containsString:@"无持续"]) {
@@ -302,6 +302,16 @@ static NSInteger const indexLableTag = 100;
     NSArray *indexArr = @[pm25, pm10, quality, wind, humidity, rainfall];
     
     [self createWeatherIndex:indexArr];
+}
+
+- (NSString *)fy_getDataStr:(NSString *)string {
+    NSString *dataString;
+    if (string.length) {
+        dataString = string;
+    } else {
+        dataString = @"无结果";
+    }
+    return dataString;
 }
 
 - (void)fy_setTmpStateImage:(NSString *)cond {

@@ -83,11 +83,10 @@
 - (void)fy_networkWeatherData:(NSString *)city {
     self.weatherRequest = [FYApi getWithBaseUrlString:JD_API_URL
                                             UrlString:WEATHER_API
-                                    requestDictionary:@{@"appkey":JD_APIKEY, @"city":city}
+                                    requestDictionary:@{ @"city":city, @"appkey":JD_APIKEY}
                                              delegate:nil];
     [self.weatherRequest startRequestSuccess:^(FYRequest *request, id result) {
-        
-        //  NSLog(@"--- 天气JSON：%@", [NSString jsonStringWithObject:result]);
+//        NSLog(@"--- 天气JSON：%@", [NSString jsonStringWithObject:result]);
         NSDictionary *dataDict = result[@"result"][@"HeWeather5"][0];
         WeatherHeWeather5 *weatherModel = [[WeatherHeWeather5 alloc] initWithDictionary:dataDict];
         self.getCityWeatherBlock(weatherModel);
