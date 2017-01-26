@@ -283,8 +283,8 @@ static NSInteger const indexLableTag = 100;
 }
 
 - (void)fy_setMaxAndMinTmp:(WeatherDailyForecast *)model {
-    self.minLable.text = [NSString stringWithFormat:@"%@° >", model.tmp.min];
-    self.maxLable.text = [NSString stringWithFormat:@"< %@°", model.tmp.max];
+    self.minLable.text = [NSString stringWithFormat:@"%@°", model.tmp.min];
+    self.maxLable.text = [NSString stringWithFormat:@"%@°", model.tmp.max];
 }
 
 - (void)fy_setIndexData:(WeatherHeWeather5 *)model {
